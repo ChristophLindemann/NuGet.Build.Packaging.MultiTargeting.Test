@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nuget.Tests.MultiTarget.A\Nuget.Tests.MultiTarget.A.csproj" />
+  </ItemGroup>
+
+</Project>
